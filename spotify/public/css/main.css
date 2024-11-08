@@ -1,0 +1,36 @@
+.main {
+    position: absolute;
+    width: calc(100% - var(--w-tableft) - 12px);
+    height: calc(100% - 24px);
+    top: 12px;
+    right: 12px;
+    display: flex;
+    flex-flow: column;
+    min-height: 0;
+}
+
+.navbar {
+    padding-bottom: 16px;
+}
+
+.musics-ctn {
+    overflow-y: auto;
+    padding-top: 24px;
+}
+
+.grid-musics {
+    display: grid;
+    column-gap: 24px;
+    grid-template-columns: auto auto auto auto;
+}
+
+.musics-title {
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 24px;
+}
+
+.show-all {
+    color: #a9a9a9;
+    font-size: 14px;
+}
